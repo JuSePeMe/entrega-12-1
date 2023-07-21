@@ -262,6 +262,7 @@ const FormConsulta = ({ respuestas, onDelete, onModify }) => {
 
   return (
     <main>
+      <h3>Consulta de respuestas</h3>
       {!respuestas.length ? "No hay registros del formulario" : ""}
       {visible === true && (
         <ul className="lista-respuesta">

@@ -2,6 +2,8 @@ import Boton  from "./Boton";
 
 export default {
     component: Boton,
+    title: "Componentes/Boton", 
+    tags: ["autodocs"]
 }
 export const Siguiente = {
     args:
