@@ -1,7 +1,12 @@
 import PropTypes from "prop-types";
+import "./boton.scss";
 
 export const Boton = ({ label }) => {
-  return <button type="button">{label}</button>;
+  return (
+    <button type="button" className="btn">
+      {label}
+    </button>
+  );
 };
 
 export default Boton;
